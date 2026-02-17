@@ -9,8 +9,8 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 # ---------- Environment Variables ----------
-TOKEN = os.environ.get("TOKEN")
-GROUP_CHAT_ID = int(os.environ.get("GROUP_CHAT_ID", 0))
+TOKEN = os.environ.get("8148713218:AAGR9y3KRSLVgtSDFWmt_iwA1VHwgRjSB6E")
+GROUP_CHAT_ID = int(os.environ.get("-1002721316986", 0))
 
 DB_PATH = "bank.db"
 sessions = {}  # {user_id: role} برای ذخیره نقش پس از لاگین
@@ -252,3 +252,4 @@ if __name__ == "__main__":
             loop.create_task(main())
         else:
             raise
+
